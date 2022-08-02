@@ -31,7 +31,7 @@ pipeline {
             steps 
             {
 
-                sh 'kubectl create namespace my-app'
+                #sh 'kubectl create namespace my-app'
                 sh 'kubectl apply -f ./dep2.yaml -n my-app'
                 sh 'kubectl apply -f ./servicelb2.yaml -n my-app'
                 
