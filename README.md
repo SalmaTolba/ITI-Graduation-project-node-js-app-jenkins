@@ -8,7 +8,7 @@ gcloud compute ssh bastion-vm --project salma-358017 --zone us-central1-a -- -L8
 
 ## Install kubctl
 
-![Screenshot from 2022-08-03 07-08-42.png](Graduation-Project-ITI%20e783fb43d83645f4ac77e8a6fcfef9f0/Screenshot_from_2022-08-03_07-08-42.png)
+![Screenshot from 2022-08-03 07-08-42.png](images/Screenshot_from_2022-08-03_07-08-42.png)
 
 ## then connect to the cluster (GKE)
 
