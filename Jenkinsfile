@@ -20,8 +20,7 @@ pipeline {
         
         stage('artifact') {
             steps {
-                withCredentials([usernamePassword(credentialsId: 'dockerhub', passwordVariable: 'pass', usernameVariable: 'username')]){
-                sh 'docker login -u ${username} -p ${pass}'
+                withCredentials([usernamePassword(credentialsId: 'dockerhub')]){
                 sh 'docker push salmatolba/nodejs:latest'
             }                                                       
            }
